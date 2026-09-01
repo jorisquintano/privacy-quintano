@@ -6,10 +6,11 @@
 <title>Hermes Agent Joris — Politique de Confidentialité</title>
 <style>
   body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-         line-height: 1.6; color: #222; max-width: 720px; margin: 40px auto;
+         line-height: 1.6; color: #222; max-width: 780px; margin: 40px auto;
          padding: 0 20px; }
-  h1 { font-size: 1.5em; border-bottom: 2px solid #3F51B5; padding-bottom: 8px; }
-  h2 { font-size: 1.1em; margin-top: 24px; color: #3F51B5; }
+  h1 { font-size: 1.6em; border-bottom: 2px solid #3F51B5; padding-bottom: 8px; }
+  h2 { font-size: 1.15em; margin-top: 28px; color: #3F51B5; }
+  ul, ol { padding-left: 22px; }
   .meta { color: #666; font-size: 0.9em; }
   footer { margin-top: 40px; font-size: 0.85em; color: #666; border-top: 1px solid #ddd; padding-top: 12px; }
 </style>
@@ -18,37 +19,64 @@
   <h1>Hermes Agent Joris — Politique de Confidentialité</h1>
   <p class="meta">Dernière mise à jour : 1er septembre 2026</p>
 
-  <h2>1. Qui sommes-nous</h2>
-  <p>Cette application (« Hermes Agent Joris ») est un assistant personnel automatisé conçu et utilisé exclusivement par son propriétaire, Joris Q. Il s'agit d'un outil privé, à usage strictement personnel et non commercial.</p>
+  <h2>1. Qui sommes-nous et quelle est notre application</h2>
+  <p><strong>Hermes Agent Joris</strong> (ci-après « l'Application ») est un assistant personnel automatisé conçu et exploité par son propriétaire, <strong>Joris Q.</strong> (ci-après « le Propriétaire »). L'Application est un outil <strong>strictement privé et non commercial</strong>, utilisé uniquement par le Propriétaire pour automatiser des tâches quotidiennes de messagerie, d'agenda et de gestion de documents. Le Propriétaire est également le seul utilisateur de l'Application.</p>
 
-  <h2>2. Données traitées</h2>
-  <p>L'application accède, avec votre consentement explicite, aux services Google du compte propriétaire afin d'exécuter des tâches d'assistance quotidienne. Les données concernées peuvent inclure :</p>
+  <h2>2. Données Google auxquelles l'Application accède</h2>
+  <p>L'Application accède, avec le consentement explicite et révocable du Propriétaire, aux services Google de son compte personnel via l'API Google OAuth 2.0. Les catégories de données consultées sont les suivantes :</p>
   <ul>
-    <li><strong>Gmail</strong> : lecture, recherche et envoi de messages électroniques ;</li>
-    <li><strong>Agenda (Calendar)</strong> : consultation et gestion d'événements ;</li>
-    <li><strong>Drive, Docs, Sheets</strong> : consultation et gestion de documents ;</li>
-    <li><strong>Contacts</strong> : lecture du carnet d'adresses.</li>
+    <li><strong>Gmail</strong> : messages électroniques (contenu, expéditeurs, destinataires, objets, dates, pièces jointes) afin de les lire, les rechercher, les résumer et, le cas échéant, en envoyer à la demande du Propriétaire ;</li>
+    <li><strong>Google Agenda (Calendar)</strong> : événements, rendez-vous et disponibilités, afin d'en assurer la consultation, la planification et la gestion ;</li>
+    <li><strong>Google Drive, Docs et Sheets</strong> : documents, feuilles de calcul et fichiers, afin de les consulter, les créer et les organiser à la demande du Propriétaire ;</li>
+    <li><strong>Contacts Google</strong> : carnet d'adresses (lecture seule) afin de faciliter la rédaction et l'adressage des communications.</li>
   </ul>
 
-  <h2>3. Finalités</h2>
-  <p>Les données ne sont traitées que pour :</p>
+  <h2>3. Comment l'Application utilise ces données</h2>
+  <p>Les données ne sont utilisées que pour les finalités suivantes :</p>
   <ul>
-    <li>exécuter les actions demandées par le propriétaire (résumé de messagerie, planification, gestion de documents) ;</li>
-    <li>automatiser des tâches répétitives d'organisation personnelle.</li>
+    <li>exécuter les actions explicitement demandées par le Propriétaire (résumer une messagerie, planifier un rendez-vous, créer ou modifier un document, envoyer un courriel) ;</li>
+    <li>automatiser des tâches répétitives d'organisation personnelle (tri de la messagerie, rappels, synthèses périodiques) ;</li>
+    <li>permettre à l'Application de fonctionner conformément à sa finalité d'assistant personnel.</li>
+  </ul>
+  <p>L'Application n'utilise en aucun cas ces données pour du profilage publicitaire, de la revente, du démarchage ou tout autre usage commercial.</p>
+
+  <h2>4. Partage, transfert et divulgation des données</h2>
+  <p><strong>L'Application ne vend, ne loue, ne partage ni ne divulgue aucune donnée à des tiers.</strong> Les données ne sont jamais transmises à des partenaires, régies publicitaires, courtiers en données ou revendeurs d'informations. Aucun transfert à des fins de publicité ciblée, d'évaluation de solvabilité, de prêt ou de formation de modèles d'intelligence artificielle n'est effectué.</p>
+  <p>Les données peuvent uniquement être divulguées si la loi l'exige (demande judiciaire ou réglementaire dûment fondée).</p>
+
+  <h2>5. Stockage et hébergement</h2>
+  <p>Les données accédées via les API Google ne sont stockées qu'au strict minimum nécessaire à l'exécution des tâches. Elles résident sur l'<strong>infrastructure personnelle privée du Propriétaire</strong> (serveur domestique privé, non accessible au public). Les jetons d'accès OAuth sont stockés localement sur cette infrastructure, protégés par des permissions d'accès restreintes.</p>
+
+  <h2>6. Protection des données sensibles</h2>
+  <p>Des mesures techniques et organisationnelles raisonnables protègent la confidentialité et l'intégrité des données :</p>
+  <ul>
+    <li>authentification et restriction d'accès à l'infrastructure ;</li>
+    <li>chiffrement des communications (TLS) lors des échanges avec les API Google ;</li>
+    <li>conservation des jetons d'accès en local, avec permissions restreintes ;</li>
+    <li>accès strictement limité au Propriétaire.</li>
   </ul>
 
-  <h2>4. Stockage et hébergement</h2>
-  <p>Aucune donnée n'est vendue, louée, partagée ou transmise à un tiers. Les données restent sur l'infrastructure personnelle du propriétaire (serveur domestique privé) et chez Google dans la limite des accès autorisés. Les jetons d'accès OAuth sont stockés localement sur cette infrastructure privée.</p>
+  <h2>7. Conservation et suppression des données</h2>
+  <p>Les données ne sont conservées que le temps nécessaire aux finalités décrites ci-dessus. Le Propriétaire peut, à tout moment, demander la suppression des données traitées localement. La révocation de l'accès OAuth (voir section 8) met fin à tout accès ultérieur aux données via les API Google.</p>
 
-  <h2>5. Conservation et sécurité</h2>
-  <p>Les données ne sont conservées que le temps nécessaire aux finalités décrites. Des mesures techniques raisonnables (authentification, restriction d'accès local) protègent l'infrastructure.</p>
+  <h2>8. Droits du Propriétaire et révocation</h2>
+  <p>En tant qu'utilisateur de l'Application, le Propriétaire dispose des droits suivants :</p>
+  <ul>
+    <li><strong>Accès</strong> aux données traitées ;</li>
+    <li><strong>Rectification</strong> des données inexactes ;</li>
+    <li><strong>Suppression</strong> des données ;</li>
+    <li><strong>Révocation</strong> de l'accès de l'Application à tout moment, via les paramètres de sécurité de son compte Google (rubrique « Applications tierces » / « Applications avec accès au compte »). Cette révocation interrompt immédiatement et définitivement tout accès ultérieur aux données Google.</li>
+  </ul>
 
-  <h2>6. Vos droits</h2>
-  <p>Vous pouvez, à tout moment, révoquer l'accès de l'application via votre compte Google (rubrique « Applications tierces » / « Applications avec accès au compte »). Cette révocation interrompt immédiatement tout accès ultérieur.</p>
+  <h2>9. Base juridique</h2>
+  <p>Le traitement des données repose sur le <strong>consentement</strong> du Propriétaire, exprimé lors de l'autorisation OAuth, et sur l'exécution de la finalité légitime d'assistance personnelle de l'Application. Le Propriétaire peut retirer son consentement à tout moment en révoquant l'accès.</p>
 
-  <h2>7. Contact</h2>
-  <p>Pour toute question relative à cette politique : <strong>joris.quintano@gmail.com</strong></p>
+  <h2>10. Modifications de cette politique</h2>
+  <p>Cette politique peut être mise à jour pour refléter les évolutions de l'Application ou des exigences réglementaires. Toute modification sera publiée à cette adresse et la date de mise à jour sera actualisée.</p>
 
-  <footer>© 2026 Joris Q. — Application privée à usage personnel.</footer>
+  <h2>11. Contact</h2>
+  <p>Pour toute question relative à cette politique de confidentialité ou au traitement des données : <strong>joris.quintano@gmail.com</strong></p>
+
+  <footer>© 2026 Joris Q. — Application privée à usage personnel. Cette politique est propre à l'application Hermes Agent Joris.</footer>
 </body>
 </html>
